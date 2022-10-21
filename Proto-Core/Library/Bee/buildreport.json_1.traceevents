@@ -1,0 +1,763 @@
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1657512629941004, "dur": 922337203685477580, "ph": "X", "name": "Build ScriptAssemblies", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1657512629942503, "dur": 30922, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1657512629973524, "dur": 69121, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1657512630042666, "dur": 364663, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1657512630407336, "dur": 1573166, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1657512631980523, "dur": 11119, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1657512636551889, "dur": 922337203685477580, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1657512636552107, "dur": 1214, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1657512636553322, "dur": 38588, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1657512636591920, "dur": 353127, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1657512636945054, "dur": 130934545, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1657512767879612, "dur": 1221, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1657512967392417, "dur": 922337203685477580, "ph": "X", "name": "Build ScriptAssemblies", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1657512967392482, "dur": 26126, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1657512967418613, "dur": 49372, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1657512967467993, "dur": 11024, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1657512970423721, "dur": 922337203685477580, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1657512970423767, "dur": 3024, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1657512970426793, "dur": 146184571, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1657513116611378, "dur": 1226, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1657513116614193, "dur": 139, "ph": "X", "name": "", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1657512970469868, "dur":925, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1657512970470809, "dur":202, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1657512970471029, "dur":17, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1657512970471046, "dur":110, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1657512970471161, "dur":310, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1657512970471471, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1657513116589815, "dur":101, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1657513116589916, "dur":130, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1657513116590046, "dur":10, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1657513116590056, "dur":68, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1657513116590124, "dur":9, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1657513116590133, "dur":74, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1657513116590207, "dur":7, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1657513116590214, "dur":64, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1657513116590278, "dur":11, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1657513116590289, "dur":64, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1657513116590353, "dur":8, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1657513116590361, "dur":66, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1657513116590427, "dur":5, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1657513116590432, "dur":65, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1657513116590497, "dur":13, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1657513116590510, "dur":61, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1657513116590571, "dur":1, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1657513116590596, "dur":32, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1657513116590651, "dur":9517, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1657512970471090, "dur":387, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1657512970471479, "dur":7827, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1657512970479306, "dur":0, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1657512970479307, "dur":6, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1657512970479314, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1657512970479315, "dur":28, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1657512970479376, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1657512970479897, "dur":482, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1657512970480379, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1657512970480382, "dur":2, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1657512970480386, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1657512970480391, "dur":763, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1657512970481157, "dur":6, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1657512970481163, "dur":3, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1657512970481167, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1657512970481170, "dur":410, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1657512970481592, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1657512970481601, "dur":2, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1657512970481606, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1657512970481611, "dur":1475579, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1657512971957197, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":1, "ts":1657512971957205, "dur":13822, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1657512971971030, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1657512971971074, "dur":75557432, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":1, "ts":1657513047528536, "dur":69061305, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1657512970471097, "dur":383, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1657512970471480, "dur":7830, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1657512970479310, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1657512970479369, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1657512970479435, "dur":10, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1657512970480211, "dur":374, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1657512970480588, "dur":4, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1657512970480592, "dur":426, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1657512970481020, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1657512970481038, "dur":1480088, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1657512971961134, "dur":7, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":2, "ts":1657512971961142, "dur":11950, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1657512971973094, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1657512971973097, "dur":118958026, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":2, "ts":1657513090931147, "dur":25658635, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1657512970471104, "dur":378, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1657512970471482, "dur":7839, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1657512970479321, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1657512970479385, "dur":41, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1657512970479442, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1657512970480144, "dur":11501, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1657512970491649, "dur":5, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1657512970491654, "dur":2, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1657512970491658, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1657512970491674, "dur":321, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1657512970491997, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":3, "ts":1657512970492000, "dur":2, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1657512970492003, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1657512970492006, "dur":11280834, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":3, "ts":1657512981772871, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1657512981772897, "dur":19, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1657512981772922, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1657512981772937, "dur":309797, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1657512982082755, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1657512982082798, "dur":18, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1657512982082826, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1657512982082840, "dur":523327, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1657512982606192, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1657512982606219, "dur":16, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1657512982606240, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1657512982606256, "dur":161459, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1657512982767744, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1657512982767781, "dur":15, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1657512982767811, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1657512982767835, "dur":2183730, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1657512984951598, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1657512984951629, "dur":14, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1657512984951653, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1657512984951675, "dur":168195, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1657512985119907, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1657512985119933, "dur":19838, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1657512985139786, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1657512985139811, "dur":124122, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1657512985263952, "dur":130, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/Managed/NavMeshComponents.dll" }}
+,{ "pid":12345, "tid":3, "ts":1657512985264084, "dur":16, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1657512985264109, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1657512985264124, "dur":161063, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/Managed/NavMeshComponents.dll" }}
+,{ "pid":12345, "tid":3, "ts":1657512985425204, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1657512985425230, "dur":19665, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1657512985444911, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1657512985444959, "dur":1897, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1657512985446864, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1657512985446895, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1657512985446933, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1657512985446941, "dur":538923, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1657512985985893, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":3, "ts":1657512985985917, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1657512985985980, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1657512985985998, "dur":970729, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":3, "ts":1657512986956739, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1657512986956754, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1657512986956770, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1657512986956782, "dur":23106735, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1657513010063539, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1657513010063561, "dur":75, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1657513010063645, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1657513010063661, "dur":3905170, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1657513013968851, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":3, "ts":1657513013968874, "dur":15, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1657513013968897, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1657513013969029, "dur":210930, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":3, "ts":1657513014179990, "dur":1942, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":3, "ts":1657513014181933, "dur":28, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1657513014181970, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1657513014181989, "dur":78494, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":3, "ts":1657513014260510, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1657513014260530, "dur":23, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1657513014260563, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1657513014260580, "dur":536031, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1657513014796624, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1657513014796644, "dur":17, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1657513014796668, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1657513014796683, "dur":2221834, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1657513017018543, "dur":1459, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":3, "ts":1657513017020003, "dur":29, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1657513017020044, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1657513017020060, "dur":235297, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":3, "ts":1657513017255379, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1657513017255414, "dur":21, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1657513017255445, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1657513017255463, "dur":57073, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1657513017312570, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":3, "ts":1657513017312595, "dur":23, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1657513017312626, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1657513017312649, "dur":2703218, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":3, "ts":1657513020015890, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1657513020015910, "dur":11, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1657513020015929, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1657513020016025, "dur":958, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1657513020016988, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1657513020016998, "dur":9, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1657513020017011, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1657513020017016, "dur":682554, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1657513020699621, "dur":970, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":3, "ts":1657513020700591, "dur":23, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1657513020700623, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1657513020700636, "dur":1082, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":3, "ts":1657513020701725, "dur":262, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":3, "ts":1657513020701987, "dur":30, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1657513020702024, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1657513020702032, "dur":846, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":3, "ts":1657513020702889, "dur":306, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":3, "ts":1657513020703195, "dur":33, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1657513020703235, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1657513020703244, "dur":748, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":3, "ts":1657513020703997, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1657513020704007, "dur":24, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1657513020704036, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1657513020704042, "dur":1106, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1657513020705154, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1657513020705163, "dur":23, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1657513020705190, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1657513020705197, "dur":856, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1657513020706059, "dur":7, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1657513020706067, "dur":17, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1657513020706087, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1657513020706093, "dur":117522, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1657513020823644, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1657513020823661, "dur":29, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1657513020823699, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1657513020823781, "dur":2649022, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1657513023472819, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1657513023472830, "dur":31, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1657513023472864, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1657513023472870, "dur":135117, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1657513023608019, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1657513023608053, "dur":49390, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1657513023657449, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1657513023657457, "dur":79860, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1657513023737324, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":3, "ts":1657513023737336, "dur":35, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1657513023737376, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1657513023737384, "dur":5513845, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":3, "ts":1657513029251252, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/GI/level1/91/91d97eada6c4b8d0b2948c256d1b72ef.rgb" }}
+,{ "pid":12345, "tid":3, "ts":1657513029251295, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1657513029251329, "dur":1936, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/GI/level1/91/91d97eada6c4b8d0b2948c256d1b72ef.rgb" }}
+,{ "pid":12345, "tid":3, "ts":1657513029253272, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/GI/level1/91/91d97eada6c4b8d0b2948c256d1b72ef.vis" }}
+,{ "pid":12345, "tid":3, "ts":1657513029253288, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1657513029253297, "dur":1290, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/GI/level1/91/91d97eada6c4b8d0b2948c256d1b72ef.vis" }}
+,{ "pid":12345, "tid":3, "ts":1657513029254595, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/GI/level1/91/91d97eada6c4b8d0b2948c256d1b72ef.ecm" }}
+,{ "pid":12345, "tid":3, "ts":1657513029254609, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1657513029254682, "dur":1328972, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/GI/level1/91/91d97eada6c4b8d0b2948c256d1b72ef.ecm" }}
+,{ "pid":12345, "tid":3, "ts":1657513030583665, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/GI/level1/4c/4c19d706000156430d2534930c6f81fd.rsc.sse" }}
+,{ "pid":12345, "tid":3, "ts":1657513030583681, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1657513030583703, "dur":2838174, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/GI/level1/4c/4c19d706000156430d2534930c6f81fd.rsc.sse" }}
+,{ "pid":12345, "tid":3, "ts":1657513033421890, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/level1" }}
+,{ "pid":12345, "tid":3, "ts":1657513033421905, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1657513033421911, "dur":17019751, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/level1" }}
+,{ "pid":12345, "tid":3, "ts":1657513050441681, "dur":66148197, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657512970471111, "dur":373, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657512970471484, "dur":7835, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657512970479320, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1657512970479381, "dur":49, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657512970479453, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657512970480483, "dur":759, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1657512970481244, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1657512970481247, "dur":1, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657512970481250, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657512970481254, "dur":336, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1657512970481593, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1657512970481607, "dur":3, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657512970481611, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657512970481614, "dur":1475568, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1657512971957188, "dur":175, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":4, "ts":1657512971957364, "dur":13674, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657512971971040, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657512971971062, "dur":10645275, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":4, "ts":1657512982616375, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":4, "ts":1657512982616404, "dur":13, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657512982616529, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657512982616548, "dur":2523719, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":4, "ts":1657512985140280, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":4, "ts":1657512985140304, "dur":13, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657512985140384, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657512985140398, "dur":1834741, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":4, "ts":1657512986975153, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1657512986975169, "dur":15, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657512986975189, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657512986975199, "dur":107718, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1657512987082945, "dur":112, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":4, "ts":1657512987083057, "dur":11, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657512987083073, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657512987083080, "dur":644, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":4, "ts":1657512987083730, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1657512987083745, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657512987083757, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657512987083764, "dur":81084, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1657512987164865, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1657512987164881, "dur":11, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657512987164931, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657512987164943, "dur":1446, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1657512987166394, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1657512987166404, "dur":9, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657512987166418, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657512987166426, "dur":87767, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1657512987254206, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":4, "ts":1657512987254221, "dur":14, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657512987254241, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657512987254251, "dur":30058720, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":4, "ts":1657513017312987, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1657513017313005, "dur":63, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657513017313078, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657513017313092, "dur":485307, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1657513017798423, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1657513017798450, "dur":22, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657513017798484, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657513017798505, "dur":2242677, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1657513020041199, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":4, "ts":1657513020041215, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657513020041232, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657513020041251, "dur":101450, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":4, "ts":1657513020142715, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1657513020142726, "dur":9, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657513020142739, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657513020142748, "dur":32180, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1657513020174941, "dur":1606, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":4, "ts":1657513020176547, "dur":14, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657513020176567, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657513020176578, "dur":3420935, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":4, "ts":1657513023597520, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1657513023597531, "dur":55587, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657513023653124, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657513023653132, "dur":220926, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1657513023874114, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1657513023874149, "dur":40, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657513023874227, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657513023874238, "dur":580415, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1657513024454665, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1657513024454677, "dur":222, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657513024454904, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657513024454913, "dur":2204965, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1657513026659891, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1657513026659908, "dur":29, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657513026659943, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657513026659954, "dur":149650, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1657513026809631, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1657513026809660, "dur":35, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657513026809734, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657513026809747, "dur":34154, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1657513026843907, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/GI/level1/63/63182a3853e7366d0d74d4a22e10d90a.caw" }}
+,{ "pid":12345, "tid":4, "ts":1657513026843920, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657513026843929, "dur":618, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/GI/level1/63/63182a3853e7366d0d74d4a22e10d90a.caw" }}
+,{ "pid":12345, "tid":4, "ts":1657513026844553, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/GI/level1/63/63182a3853e7366d0d74d4a22e10d90a.ecm" }}
+,{ "pid":12345, "tid":4, "ts":1657513026844569, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657513026844576, "dur":671, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/GI/level1/63/63182a3853e7366d0d74d4a22e10d90a.ecm" }}
+,{ "pid":12345, "tid":4, "ts":1657513026845254, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/GI/level1/63/63182a3853e7366d0d74d4a22e10d90a.iws.sse" }}
+,{ "pid":12345, "tid":4, "ts":1657513026845271, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657513026845281, "dur":2223669, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/GI/level1/63/63182a3853e7366d0d74d4a22e10d90a.iws.sse" }}
+,{ "pid":12345, "tid":4, "ts":1657513029068981, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/GI/level1/63/63182a3853e7366d0d74d4a22e10d90a.rgb" }}
+,{ "pid":12345, "tid":4, "ts":1657513029069010, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657513029069038, "dur":1391, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/GI/level1/63/63182a3853e7366d0d74d4a22e10d90a.rgb" }}
+,{ "pid":12345, "tid":4, "ts":1657513029070438, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/GI/level1/91/91d97eada6c4b8d0b2948c256d1b72ef.rsc.sse" }}
+,{ "pid":12345, "tid":4, "ts":1657513029070548, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657513029070696, "dur":1511779, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/GI/level1/91/91d97eada6c4b8d0b2948c256d1b72ef.rsc.sse" }}
+,{ "pid":12345, "tid":4, "ts":1657513030582487, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/GI/level1/4c/4c19d706000156430d2534930c6f81fd.ecm" }}
+,{ "pid":12345, "tid":4, "ts":1657513030582509, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657513030582649, "dur":1001, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/GI/level1/4c/4c19d706000156430d2534930c6f81fd.ecm" }}
+,{ "pid":12345, "tid":4, "ts":1657513030583658, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/GI/level1/4c/4c19d706000156430d2534930c6f81fd.vis" }}
+,{ "pid":12345, "tid":4, "ts":1657513030583674, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657513030583692, "dur":849, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/GI/level1/4c/4c19d706000156430d2534930c6f81fd.vis" }}
+,{ "pid":12345, "tid":4, "ts":1657513030584549, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/GI/level1/4c/4c19d706000156430d2534930c6f81fd.caw" }}
+,{ "pid":12345, "tid":4, "ts":1657513030584568, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657513030584577, "dur":844, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/GI/level1/4c/4c19d706000156430d2534930c6f81fd.caw" }}
+,{ "pid":12345, "tid":4, "ts":1657513030585440, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/GI/level1/4c/4c19d706000156430d2534930c6f81fd.rgb" }}
+,{ "pid":12345, "tid":4, "ts":1657513030585469, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657513030585487, "dur":990, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/GI/level1/4c/4c19d706000156430d2534930c6f81fd.rgb" }}
+,{ "pid":12345, "tid":4, "ts":1657513030586484, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/GI/level1/4c/4c19d706000156430d2534930c6f81fd.iws.sse" }}
+,{ "pid":12345, "tid":4, "ts":1657513030586503, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657513030586517, "dur":2696447, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/GI/level1/4c/4c19d706000156430d2534930c6f81fd.iws.sse" }}
+,{ "pid":12345, "tid":4, "ts":1657513033282976, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/GI/level1/4e/4eb7890be200d13a5bf46f166f7f42ae.iws.sse" }}
+,{ "pid":12345, "tid":4, "ts":1657513033283053, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657513033283081, "dur":1808, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/GI/level1/4e/4eb7890be200d13a5bf46f166f7f42ae.iws.sse" }}
+,{ "pid":12345, "tid":4, "ts":1657513033284898, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/GI/level1/4e/4eb7890be200d13a5bf46f166f7f42ae.rsc.sse" }}
+,{ "pid":12345, "tid":4, "ts":1657513033284967, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657513033284978, "dur":280699, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/GI/level1/4e/4eb7890be200d13a5bf46f166f7f42ae.rsc.sse" }}
+,{ "pid":12345, "tid":4, "ts":1657513033565693, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/level0" }}
+,{ "pid":12345, "tid":4, "ts":1657513033565814, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657513033565828, "dur":899, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/level0" }}
+,{ "pid":12345, "tid":4, "ts":1657513033566734, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/level0.resS" }}
+,{ "pid":12345, "tid":4, "ts":1657513033566754, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657513033566761, "dur":2616320, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/level0.resS" }}
+,{ "pid":12345, "tid":4, "ts":1657513036183110, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1657513036183144, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657513036183163, "dur":7809073, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1657513043992257, "dur":72597537, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1657512970471118, "dur":367, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1657512970471485, "dur":7855, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1657512970479340, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1657512970479397, "dur":43, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1657512970479451, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1657512970480319, "dur":1482906, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1657512971963232, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":5, "ts":1657512971963241, "dur":11917, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1657512971975161, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1657512971975199, "dur":51581596, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":5, "ts":1657513023556814, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1657513023556825, "dur":51124, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1657513023607957, "dur":13, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1657513023608009, "dur":129431, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1657513023737449, "dur":1388, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/Managed/NavMeshComponentsExamples.dll" }}
+,{ "pid":12345, "tid":5, "ts":1657513023738837, "dur":102, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1657513023738947, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1657513023738956, "dur":40502, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/Managed/NavMeshComponentsExamples.dll" }}
+,{ "pid":12345, "tid":5, "ts":1657513023779463, "dur":236, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":5, "ts":1657513023779699, "dur":19, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1657513023779724, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1657513023779729, "dur":503, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":5, "ts":1657513023780238, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":5, "ts":1657513023780248, "dur":25, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1657513023780277, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1657513023780283, "dur":117455, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":5, "ts":1657513023897745, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1657513023897754, "dur":16, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1657513023897775, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1657513023897781, "dur":80940, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1657513023978727, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1657513023978738, "dur":475557, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1657513024454314, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1657513024454357, "dur":27704, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1657513024482071, "dur":7, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1657513024482078, "dur":13, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1657513024482116, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1657513024482124, "dur":2177465, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1657513026659617, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1657513026659640, "dur":162, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1657513026659811, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1657513026659830, "dur":149830, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1657513026809670, "dur":2311, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":5, "ts":1657513026811981, "dur":44, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1657513026812032, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1657513026812042, "dur":6295902, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":5, "ts":1657513033107957, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/GI/level1/4e/4eb7890be200d13a5bf46f166f7f42ae.rgb" }}
+,{ "pid":12345, "tid":5, "ts":1657513033107989, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1657513033283053, "dur":1671, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/GI/level1/4e/4eb7890be200d13a5bf46f166f7f42ae.rgb" }}
+,{ "pid":12345, "tid":5, "ts":1657513033284731, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/GI/level1/4e/4eb7890be200d13a5bf46f166f7f42ae.caw" }}
+,{ "pid":12345, "tid":5, "ts":1657513033284749, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1657513033284759, "dur":675, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/GI/level1/4e/4eb7890be200d13a5bf46f166f7f42ae.caw" }}
+,{ "pid":12345, "tid":5, "ts":1657513033285441, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":5, "ts":1657513033285458, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1657513033285475, "dur":2913415, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":5, "ts":1657513036198901, "dur":241, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":5, "ts":1657513036199143, "dur":9, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1657513036199157, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1657513036199165, "dur":615, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":5, "ts":1657513036199786, "dur":217, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/boot.config" }}
+,{ "pid":12345, "tid":5, "ts":1657513036200004, "dur":12, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1657513036200020, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1657513036200026, "dur":509, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/boot.config" }}
+,{ "pid":12345, "tid":5, "ts":1657513036200541, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":5, "ts":1657513036200556, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1657513036200562, "dur":28094204, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":5, "ts":1657513064294785, "dur":52295107, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1657512970471125, "dur":362, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1657512970471487, "dur":7889, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1657512970479376, "dur":198, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":6, "ts":1657512970479574, "dur":3, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1657512970479579, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1657512970481052, "dur":1472376, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":6, "ts":1657512971953448, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":6, "ts":1657512971953456, "dur":11499, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1657512971964958, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1657512971964963, "dur":474, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":6, "ts":1657512971965441, "dur":6, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1657512971965447, "dur":6, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1657512971965455, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1657512971965510, "dur":364, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1657512971965878, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1657512971965886, "dur":9276, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1657512971975164, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1657512971975231, "dur":5652221, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1657512977627468, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":6, "ts":1657512977627479, "dur":24, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1657512977627507, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1657512977627519, "dur":7647685, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":6, "ts":1657512985275235, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1657512985275283, "dur":14, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1657512985275306, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1657512985275326, "dur":62329, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1657512985337670, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1657512985337691, "dur":87040, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1657512985424754, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1657512985424777, "dur":22088, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1657512985446888, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":6, "ts":1657512985446900, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1657512985446946, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1657512985446955, "dur":35252596, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":6, "ts":1657513020699594, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1657513020699638, "dur":19, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1657513020699667, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1657513020699685, "dur":124390, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1657513020824087, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1657513020824102, "dur":94, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1657513020824207, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1657513020824224, "dur":2134, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1657513020826370, "dur":582, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":6, "ts":1657513020826952, "dur":23, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1657513020826982, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1657513020826992, "dur":511496, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":6, "ts":1657513021338516, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":6, "ts":1657513021338538, "dur":2134240, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1657513023472790, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1657513023472799, "dur":135187, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":6, "ts":1657513023608033, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":6, "ts":1657513023608051, "dur":49239, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1657513023657295, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1657513023657302, "dur":114057, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":6, "ts":1657513023771367, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1657513023771377, "dur":17, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1657513023771399, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1657513023771407, "dur":1028, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1657513023772440, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1657513023772451, "dur":26, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1657513023772482, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1657513023772488, "dur":944, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1657513023773447, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1657513023773456, "dur":38, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1657513023773514, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1657513023773520, "dur":100584, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1657513023874161, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1657513023874174, "dur":57, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1657513023874237, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1657513023874247, "dur":1778, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1657513023876031, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":6, "ts":1657513023876040, "dur":16, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1657513023876060, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1657513023876066, "dur":578699, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":6, "ts":1657513024454773, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":6, "ts":1657513024454785, "dur":19, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1657513024454808, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1657513024454816, "dur":2246849, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":6, "ts":1657513026701677, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1657513026701691, "dur":34, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1657513026701731, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1657513026701742, "dur":1149, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1657513026702897, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1657513026702910, "dur":33, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1657513026702949, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1657513026702957, "dur":1064, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1657513026704028, "dur":265, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/Managed/Unity.TerrainTools.dll" }}
+,{ "pid":12345, "tid":6, "ts":1657513026704293, "dur":37, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1657513026704336, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1657513026704344, "dur":690, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/Managed/Unity.TerrainTools.dll" }}
+,{ "pid":12345, "tid":6, "ts":1657513026705040, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":6, "ts":1657513026705051, "dur":33, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1657513026705089, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1657513026705096, "dur":118219, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":6, "ts":1657513026823321, "dur":215, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":6, "ts":1657513026823537, "dur":9, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1657513026823551, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1657513026823894, "dur":458, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":6, "ts":1657513026824356, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/GI/level1/63/63182a3853e7366d0d74d4a22e10d90a.vis" }}
+,{ "pid":12345, "tid":6, "ts":1657513026824385, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1657513026824596, "dur":658, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/GI/level1/63/63182a3853e7366d0d74d4a22e10d90a.vis" }}
+,{ "pid":12345, "tid":6, "ts":1657513026825260, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/GI/level1/63/63182a3853e7366d0d74d4a22e10d90a.rsc.sse" }}
+,{ "pid":12345, "tid":6, "ts":1657513026825273, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1657513026825291, "dur":2428055, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/GI/level1/63/63182a3853e7366d0d74d4a22e10d90a.rsc.sse" }}
+,{ "pid":12345, "tid":6, "ts":1657513029253358, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/GI/level1/91/91d97eada6c4b8d0b2948c256d1b72ef.caw" }}
+,{ "pid":12345, "tid":6, "ts":1657513029253374, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1657513029253388, "dur":1328774, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/GI/level1/91/91d97eada6c4b8d0b2948c256d1b72ef.caw" }}
+,{ "pid":12345, "tid":6, "ts":1657513030582190, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/GI/level1/91/91d97eada6c4b8d0b2948c256d1b72ef.iws.sse" }}
+,{ "pid":12345, "tid":6, "ts":1657513030582218, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1657513030582240, "dur":2700818, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/GI/level1/91/91d97eada6c4b8d0b2948c256d1b72ef.iws.sse" }}
+,{ "pid":12345, "tid":6, "ts":1657513033283073, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/GI/level1/4e/4eb7890be200d13a5bf46f166f7f42ae.ecm" }}
+,{ "pid":12345, "tid":6, "ts":1657513033283095, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1657513033283108, "dur":1763, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/GI/level1/4e/4eb7890be200d13a5bf46f166f7f42ae.ecm" }}
+,{ "pid":12345, "tid":6, "ts":1657513033284880, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/GI/level1/4e/4eb7890be200d13a5bf46f166f7f42ae.vis" }}
+,{ "pid":12345, "tid":6, "ts":1657513033284899, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1657513033284950, "dur":789, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/GI/level1/4e/4eb7890be200d13a5bf46f166f7f42ae.vis" }}
+,{ "pid":12345, "tid":6, "ts":1657513033285747, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":6, "ts":1657513033285765, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1657513033285772, "dur":283610, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":6, "ts":1657513033569394, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":6, "ts":1657513033569409, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1657513033569418, "dur":6841028, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":6, "ts":1657513040410479, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":6, "ts":1657513040410681, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1657513040410704, "dur":2691782, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":6, "ts":1657513043102510, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":6, "ts":1657513043102534, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1657513043102547, "dur":21099024, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":6, "ts":1657513064201590, "dur":52388264, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1657512970471151, "dur":337, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1657512970471488, "dur":7837, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1657512970479325, "dur":248, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1657512970479573, "dur":2, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1657512970479592, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1657512970480662, "dur":1482433, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1657512971963102, "dur":253, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core.exe" }}
+,{ "pid":12345, "tid":7, "ts":1657512971963355, "dur":9748, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1657512971973105, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1657512971973107, "dur":10831523, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core.exe" }}
+,{ "pid":12345, "tid":7, "ts":1657512982804653, "dur":295, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/Managed/Cinemachine.dll" }}
+,{ "pid":12345, "tid":7, "ts":1657512982804950, "dur":20, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1657512982804979, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1657512982804996, "dur":2352006, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/Managed/Cinemachine.dll" }}
+,{ "pid":12345, "tid":7, "ts":1657512985157017, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1657512985157035, "dur":12, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1657512985157056, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1657512985157073, "dur":73431, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1657512985230528, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/Managed/clipper_library.dll" }}
+,{ "pid":12345, "tid":7, "ts":1657512985230560, "dur":28913, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1657512985259494, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1657512985259521, "dur":185512, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/Managed/clipper_library.dll" }}
+,{ "pid":12345, "tid":7, "ts":1657512985445048, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":7, "ts":1657512985445068, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1657512985445088, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1657512985445098, "dur":1514129, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":7, "ts":1657512986959244, "dur":131, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":7, "ts":1657512986959375, "dur":12, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1657512986959396, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1657512986959411, "dur":1043, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":7, "ts":1657512986960464, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1657512986960481, "dur":12, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1657512986960499, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1657512986960505, "dur":122654, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1657512987083170, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1657512987083186, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1657512987083201, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1657512987083212, "dur":170952, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1657512987254178, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":7, "ts":1657512987254194, "dur":15, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1657512987254215, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1657512987254223, "dur":32888628, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":7, "ts":1657513020142932, "dur":225, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":7, "ts":1657513020143157, "dur":12, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1657513020143174, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1657513020143180, "dur":500, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":7, "ts":1657513020143685, "dur":7, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":7, "ts":1657513020143692, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1657513020143733, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1657513020143739, "dur":35888685, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":7, "ts":1657513056032449, "dur":60557431, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1657512970471158, "dur":332, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1657512970471490, "dur":7830, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1657512970479321, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":8, "ts":1657512970479378, "dur":50, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1657512970479447, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1657512970480226, "dur":319, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":8, "ts":1657512970480547, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":8, "ts":1657512970480550, "dur":4, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1657512970480556, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1657512970480559, "dur":1480560, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":8, "ts":1657512971961126, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":8, "ts":1657512971961137, "dur":11945, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1657512971973084, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1657512971973086, "dur":13467818, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":8, "ts":1657512985440947, "dur":200, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":8, "ts":1657512985441148, "dur":3798, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1657512985444954, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1657512985444965, "dur":541278, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":8, "ts":1657512985986255, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1657512985986277, "dur":48, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1657512985986331, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1657512985986341, "dur":960295, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1657512986946666, "dur":141, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":8, "ts":1657512986946808, "dur":15, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1657512986946833, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1657512986946853, "dur":987, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":8, "ts":1657512986947848, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1657512986947879, "dur":16, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1657512986947937, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1657512986947947, "dur":134967, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1657512987082943, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1657512987082965, "dur":14, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1657512987082986, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1657512987083000, "dur":82072, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1657512987165081, "dur":1649, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":8, "ts":1657512987166730, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1657512987166745, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1657512987166751, "dur":107306, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":8, "ts":1657512987274063, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":8, "ts":1657512987274113, "dur":7, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1657512987274140, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1657512987274146, "dur":461, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":8, "ts":1657512987274611, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":8, "ts":1657512987274619, "dur":7, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1657512987274630, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1657512987274636, "dur":6869139, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":8, "ts":1657512994143807, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1657512994143838, "dur":16, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1657512994143862, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1657512994143881, "dur":9297914, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1657513003441823, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1657513003441849, "dur":46, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1657513003441905, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1657513003441925, "dur":2344, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1657513003444279, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1657513003444296, "dur":12, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1657513003444313, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1657513003444324, "dur":516365, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1657513003960722, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1657513003960748, "dur":166, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1657513003960924, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1657513003960942, "dur":3976810, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1657513007937781, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1657513007937809, "dur":29, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1657513007937846, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1657513007937866, "dur":102232, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1657513008040128, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":8, "ts":1657513008040156, "dur":68847, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1657513008109020, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1657513008109064, "dur":6172987, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":8, "ts":1657513014282069, "dur":518, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":8, "ts":1657513014282588, "dur":18, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1657513014282615, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1657513014282630, "dur":1181, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":8, "ts":1657513014283821, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1657513014283836, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1657513014283852, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1657513014283860, "dur":512058, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1657513014795954, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1657513014795984, "dur":272, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1657513014796375, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1657513014796399, "dur":2222326, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1657513017018734, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1657513017018746, "dur":14, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1657513017018766, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1657513017018779, "dur":85252, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1657513017104045, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1657513017104062, "dur":15, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1657513017104081, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1657513017104095, "dur":6633371, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1657513023737476, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1657513023737489, "dur":22, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1657513023737517, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1657513023737527, "dur":37440, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1657513023774972, "dur":735, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":8, "ts":1657513023775707, "dur":19, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1657513023775731, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1657513023775736, "dur":98382, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":8, "ts":1657513023874154, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1657513023874177, "dur":26, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1657513023874242, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1657513023874250, "dur":580218, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1657513024454483, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1657513024454501, "dur":23, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1657513024454529, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1657513024454537, "dur":1355, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1657513024455901, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1657513024455911, "dur":23, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1657513024455940, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1657513024455948, "dur":2204405, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1657513026660366, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":8, "ts":1657513026660382, "dur":25, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1657513026660413, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1657513026660424, "dur":1743, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":8, "ts":1657513026662176, "dur":2044, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":8, "ts":1657513026664221, "dur":33, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1657513026664260, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1657513026664269, "dur":6622991, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":8, "ts":1657513033287267, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1657513033287283, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1657513033287290, "dur":2905741, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1657513036193046, "dur":311, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":8, "ts":1657513036193357, "dur":13, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1657513036193378, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1657513036193388, "dur":700, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":8, "ts":1657513036194094, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/resources.assets" }}
+,{ "pid":12345, "tid":8, "ts":1657513036194159, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1657513036194165, "dur":3866377, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/resources.assets" }}
+,{ "pid":12345, "tid":8, "ts":1657513040060568, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1657513040060605, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1657513040060623, "dur":76529076, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/CARBORRE/Unity/TheCore_ProyIntermedio_CarlosBorrero/Proto-Core_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1657513116589728, "dur":5, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":8, "ts":1657513116589734, "dur":1, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1657513116603310, "dur":1459, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1657513116614454, "dur": 1408, "ph": "X", "name": "backend_profiler0.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1657513116614070, "dur": 1824, "ph": "X", "name": "Write chrome-trace events", "args": {} },
